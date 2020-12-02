@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 1 (Inspekcija Koda)\\Grupa 3\\ZamgerV2-Implementation.csproj": {}
+    "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZamgerV2-Implementation.csproj": {}
   },
   "projects": {
-    "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 1 (Inspekcija Koda)\\Grupa 3\\ZamgerV2-Implementation.csproj": {
+    "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZamgerV2-Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 1 (Inspekcija Koda)\\Grupa 3\\ZamgerV2-Implementation.csproj",
+        "projectUniqueName": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZamgerV2-Implementation.csproj",
         "projectName": "ZamgerV2-Implementation",
-        "projectPath": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 1 (Inspekcija Koda)\\Grupa 3\\ZamgerV2-Implementation.csproj",
-        "packagesPath": "C:\\Users\\Ehlimana\\.nuget\\packages\\",
-        "outputPath": "D:\\D\\Ehlimana\\Documents\\VVS\\Zadaća br. 1 (Inspekcija Koda)\\Grupa 3\\obj\\",
+        "projectPath": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\ZamgerV2-Implementation.csproj",
+        "packagesPath": "C:\\Users\\DT User3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\Grupa 3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ehlimana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DT User3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\UnitTestProject\\UnitTestProject.csproj": {
+                "projectPath": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\UnitTestProject\\UnitTestProject.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -83,8 +87,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\UnitTestProject\\UnitTestProject.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\UnitTestProject\\UnitTestProject.csproj",
+        "projectName": "UnitTestProject",
+        "projectPath": "C:\\Users\\DT User3\\source\\repos\\VerifikacijaIValidacijaSoftvera-Vjezbe\\UnitTestProject\\UnitTestProject.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
