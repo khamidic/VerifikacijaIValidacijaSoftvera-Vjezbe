@@ -96,7 +96,18 @@ namespace eParking
         /// <param name="c"></param>
         public void ZauzmiMjesto(Clan c)
         {
-            throw new NotImplementedException();
+            if (brojač != kapacitet)
+            {
+                if (c.Status == Status.Aktivan)
+                {
+                    c.RezervišiMjesto(this);
+                }
+                else
+                    throw new RankException("Clanarina je istekla");
+            }
+            else
+                throw new RankException("Nema slobodnih mjesta");
+                
         }
 
         public void OslobodiMjesto()

@@ -82,7 +82,12 @@ namespace eParking
         /// <returns></returns>
         public bool UlogujSe()
         {
-            throw new NotImplementedException();
+            if (brojLogovanja <= 99) {
+                brojLogovanja++;
+                return true;
+            }
+            else
+                return false;
         }
 
         #endregion

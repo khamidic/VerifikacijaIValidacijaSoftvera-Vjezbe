@@ -80,7 +80,18 @@ namespace eParking
         /// <param name="l"></param>
         public void RezervišiMjesto(Lokacija l)
         {
-            throw new NotImplementedException();
+            ProvjeriJeLiČlanarinaIstekla();
+            if (status == Status.Aktivna)
+            {
+                if (rezervisanoParkingMjesto == null)
+                {
+                    rezervisanoParkingMjesto = (l.DajTrenutniBrojSlobodnogMjesta(), l);
+                }
+                else
+                    throw new RankException("Greska, vec ste rezervisali parking mjesto!");
+            }
+            else
+                throw new RankException("Greska, clanarina je istekla");
         }
 
         public void ProvjeriJeLiČlanarinaIstekla()

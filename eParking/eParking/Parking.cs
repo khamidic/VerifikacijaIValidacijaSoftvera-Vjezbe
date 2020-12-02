@@ -93,7 +93,17 @@ namespace eParking
         /// <param name="l"></param>
         public void RezervišiParking(Korisnik k, Lokacija l)
         {
-            throw new NotImplementedException();
+            if (Object.ReferenceEquals(k.GetType(), Clan.GetType()))
+            {
+                if (l.brojac != l.kapacitet)
+                {
+                    k.RezervišiMjesto(l);
+                }
+                else
+                    throw new RankException("Sva mjesta su zauzeta");
+            }
+            else
+                throw new RankException("Korisnik nije clan");
         }
 
         public double IzračunajTrenutnuZaradu()
